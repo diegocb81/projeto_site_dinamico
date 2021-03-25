@@ -32,6 +32,42 @@
 .clear{
     clear: both;
 }
-    
+
+/*Estilização do Site*/
+
+header{
+    background: #3d437a;
+    padding: 20px 0;
+}
+
+header .logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    list-style-type: none;
+    position: relative;
+    top: 6px;
+}
+
+nav.desktop li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 30px;
+    font-weight: 300;
+}
+ 
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+}
 
 

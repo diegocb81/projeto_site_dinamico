@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição do website">
     <meta name="keywords" content="palavras-chave,do,meu,site">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,23 +17,24 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo">Logomarca</div>
-            <nav class="desktop">
+            <div class="logo left">DAST</div>
+            <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços/a></li>
+                    <li><a href="">Serviços</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
-            <nav class="mobile">
+            <nav class="mobile right">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços/a></li>
+                    <li><a href="">Serviços</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
+            <div class="clear"></div>
         </div><!--center-->
     </header>
 
