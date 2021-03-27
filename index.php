@@ -57,7 +57,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta. Duis vel aliquet orci. Donec maximus et diam et consectetur. Donec in neque auctor, finibus metus consectetur, ultrices ex. In facilisis volutpat fermentum.</p>
             </div><!--W50-->
             <div class="w50 left">
-                <img src="img/foto.png" alt="Foto Autor">
+                <img class="right" src="img/foto.png" alt="Foto Autor">
             </div><!--W50-->
             <div class="clear"></div>
         </div><!--center-->
