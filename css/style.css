@@ -9,6 +9,8 @@
 
 img{
     width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
 }
 
 .center{
@@ -154,12 +156,6 @@ section.descricao-autor p{
     margin-top: 10px;
 }
 
-img{
-    width: 350px;
-    height: 350px;
-    border-radius: 10px;
-}
-
 @media screen and (max-width: 700px){
     nav.desktop{
         display: none;
@@ -174,6 +170,26 @@ img{
     }
     nav.mobile ul{
         display: none;
+        position: absolute;
+        left: 0;
+        top: 55px;
+        z-index: 3;
+        text-align: center;
+        width: 100%;
+    }
+    nav.mobile li{
+        font-size: 17px;
+        display: block;
+        width: 100%;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        padding: 8px 0;
+        font-weight: 300;
+    }
+    nav.mobile li a{
+        color: #444;
+        text-decoration: none;
+        display: block;
     }
 }
 
@@ -181,7 +197,6 @@ img{
     img{
         display: block;
         margin:0 auto;
-        max-width: 500px;
         float: none !important;
     }
     .w50{
