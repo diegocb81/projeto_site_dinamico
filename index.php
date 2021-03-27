@@ -27,6 +27,9 @@
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile right">
+                <div class="botao-menu-mobile">
+                    <i class="fas fa-bars"></i>
+                </div><!--botao-menu-mobile-->
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Sobre</a></li>
