@@ -84,6 +84,7 @@
                 <h3>JavaScript</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
             </div><!--box-especialidade-->
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--especialidades-->
 
