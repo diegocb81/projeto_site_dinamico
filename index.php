@@ -89,23 +89,24 @@
     </section><!--especialidades-->
 
     <section class="extras">
+
         <div class="center">
-            <div class="w50 left">
-                <h2 class="title">Depoimentos</h2>
+            <div class="w50 left depoimentos-container">
+                <h2 class="title">Depoimentos dos nossos clientes</h2>
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
+                    <p class="depoimento-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
+                    <p class="depoimento-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
                 <div class="depoimento-single">
-                    <p class="depoimento-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
+                    <p class="depoimento-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta."</p>
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
             </div><!--w50-->
-            <div class="w50 left">
+            <div class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
@@ -115,7 +116,7 @@
                     </ul>
                 </div><!--servicos-->
             </div><!--w50-->
-            <div class="center"></div>
+            <div class="clear"></div>
         </div><!--center-->
     </section><!--extras-->
 
