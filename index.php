@@ -71,17 +71,17 @@
             <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidade">
                 <h3><em class="fab fa-css3-alt"></em></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
             </div><!--box-especialidade-->
             <div class="w33 left box-especialidade">
                 <h3><em class="fab fa-html5"></em></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
             </div><!--box-especialidade-->
             <div class="w33 left box-especialidade">
                 <h3><em class="fab fa-js-square"></em></h3>
-                <h3>JavaScript</h3>
+                <h4>JavaScript</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta.</p>
             </div><!--box-especialidade-->
             <div class="clear"></div>
