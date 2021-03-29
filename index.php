@@ -122,7 +122,7 @@
 
     <footer>
         <div class="center">
-            <p>Todos os direitos reservados.</p>
+            <p>DAST - Todos os direitos reservados.</p>
         </div><!--center-->
     </footer>
     
