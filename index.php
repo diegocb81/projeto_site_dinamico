@@ -125,6 +125,8 @@
             <p>DAST - Todos os direitos reservados.</p>
         </div><!--center-->
     </footer>
+
+    <script src="js/jquery.js"></script>
     
 </body>
 
