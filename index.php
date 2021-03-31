@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="center">
-            <div class="logo left">DAST</div>
+            <div class="logo left"><a href="/">DAST</a></div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="">Home</a></li>
@@ -127,6 +127,7 @@
     </footer>
 
     <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
     
 </body>
 
