@@ -1,3 +1,4 @@
+<?php include('config.php'); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,9 +10,10 @@
     <meta name="description" content="Descrição do website">
     <meta name="keywords" content="palavras-chave,do,meu,site">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/fontawesome.min.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/style.css">
+    
 </head>
 
 <body>
@@ -20,10 +22,10 @@
             <div class="logo left"><a href="/">DAST</a></div>
             <nav class="desktop right">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile right">
@@ -31,10 +33,10 @@
                     <i class="fas fa-bars"></i>
                 </div><!--botao-menu-mobile-->
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav><!--mobile-->
             <div class="clear"></div>
@@ -60,9 +62,10 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta. Duis vel aliquet orci. Donec maximus et diam et consectetur. Donec in neque auctor, finibus metus consectetur, ultrices ex. In facilisis volutpat fermentum.</p>
             </div><!--W50-->
             <div class="w50 left">
-                <img class="right" src="img/foto.png" alt="Foto Autor">
+                <img class="right" src="<?php echo INCLUDE_PATH; ?>img/foto.png" alt="Foto Autor">
             </div><!--W50-->
             <div class="clear"></div>
+
         </div><!--center-->
     </section><!--descricao-autor-->
 
@@ -126,8 +129,8 @@
         </div><!--center-->
     </footer>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
+    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
     
 </body>
 
