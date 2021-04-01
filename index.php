@@ -20,7 +20,7 @@
     <header>
         <div class="center">
             <div class="logo left"><a href="/">DAST</a></div>
-            <nav class="desktop right">
+            <nav class="desktop right" aria-label="menu">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
                     <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
@@ -28,9 +28,9 @@
                     <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
             </nav><!--desktop-->
-            <nav class="mobile right">
+            <nav class="mobile right" aria-label="menu">
                 <div class="botao-menu-mobile">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </div><!--botao-menu-mobile-->
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
@@ -43,6 +43,17 @@
         </div><!--center-->
     </header>
 
+    
+    <?php
+        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+
+        if (file_exists('pages/'.$url.'.php')) {
+            include('pages/'.$url.'.php');
+        }else {
+            include('pages/404.php');
+        }
+        
+    ?>
     
 
     <footer>
