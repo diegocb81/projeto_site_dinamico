@@ -11,7 +11,7 @@
     <meta name="keywords" content="palavras-chave,do,meu,site">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/all.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/style.css">
     
 </head>
@@ -43,13 +43,14 @@
         </div><!--center-->
     </header>
 
-    
     <?php
+
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
-        if (file_exists('pages/'.$url.'.php')) {
+        if (file_exists('pages/'.$url.'.php')){
             include('pages/'.$url.'.php');
         }else {
+            //A página não existe.
             include('pages/404.php');
         }
         
