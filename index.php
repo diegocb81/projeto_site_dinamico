@@ -1,4 +1,4 @@
-<?php include('config.php'); ?>
+<?php include('config.php');?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -42,7 +42,7 @@
             <div class="clear"></div>
         </div><!--center-->
     </header>
-
+    
     <?php
 
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
@@ -58,7 +58,7 @@
     ?>
     
 
-    <footer <?php if(isset($pagina404) && $pagina404 == true) echo 'class="fixed"'; ?>>
+    <footer <?php if(isset($pagina404) && $pagina404 == true){ echo 'class="fixed"';} ?>>
         <div class="center">
             <p>DAST - Todos os direitos reservados.</p>
         </div><!--center-->
