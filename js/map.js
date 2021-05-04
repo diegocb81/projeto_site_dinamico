@@ -74,11 +74,8 @@ $(function(){
 	    	}
 	}
 
-    initialize();
+	initialize();
 
-    addMarker(-27.436490,-48.405220,'',"DAST",false,true);
+	addMarker(-27.436490,-48.405220,'',"DAST",undefined,false);
 
 })
-
-
-   
