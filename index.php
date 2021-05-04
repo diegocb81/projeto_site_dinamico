@@ -69,7 +69,7 @@
     <?php
         if($url == 'contato'){
     ?>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCZFPyu5iVf1NgMAiCBSfgYWIOtlv8korY"></script>
     <script src="<?php echo INCLUDE_PATH; ?>js/map.js"></script>
     <?php } ?>
 </body>
