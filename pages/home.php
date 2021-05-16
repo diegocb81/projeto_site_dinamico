@@ -49,7 +49,7 @@
     <section class="extras">
 
         <div class="center">
-            <div class="w50 left depoimentos-container">
+            <div id="depoimentos" class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos dos nossos clientes</h2>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod nisi vel rhoncus ultrices. Suspendisse condimentum in elit in porta."</p>
@@ -64,7 +64,7 @@
                     <p class="nome-autor">Lorem Ipsum</p>
                 </div><!--depoimento-single-->
             </div><!--w50-->
-            <div class="w50 left servicos-container">
+            <div id="servicos" class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
