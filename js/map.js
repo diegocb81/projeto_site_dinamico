@@ -8,11 +8,6 @@ $(function(){
 	    center:new google.maps.LatLng(-27.436490,-48.405220),
 	    zoom:14,
 	   	scrollwheel: false,
-	     styles: [{
-	    stylers: [{
-	      saturation: -100
-	    }]
-	     }],
 	    mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
 	  
