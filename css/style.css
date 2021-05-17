@@ -94,12 +94,21 @@ nav.desktop a:hover {
     text-decoration: underline;
 }
 
-section.banner-principal {
+section.banner-container {
     width: 100%;
     height: 450px;
-    background-image: url('../img/tania-malrechauffe-9UsBCCGEbv0-unsplash.jpg');
-    background-size: 100% 100%;
     position: relative;
+}
+
+.banner-single {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 
 .overlay {
@@ -109,12 +118,12 @@ section.banner-principal {
     width: 100%;
     height: 100%;
     background-color: rgba(51, 51, 51, 0.2);
-    z-index: 1;
+    z-index: 2;
 }
 
-section.banner-principal form {
+section.banner-container form {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -123,14 +132,14 @@ section.banner-principal form {
     width: 93%;
 }
 
-section.banner-principal form h2 {
+section.banner-container form h2 {
     color: white;
     font-weight: 300;
     font-size: 30px;
     text-align: center;
 }
 
-section.banner-principal form input[type=email] {
+section.banner-container form input[type=email] {
     width: 100%;
     height: 65px;
     background: white;
@@ -141,7 +150,7 @@ section.banner-principal form input[type=email] {
     border-radius: 10px;
 }
 
-section.banner-principal form input[type=submit] {
+section.banner-container form input[type=submit] {
     width: 100%;
     height: 65px;
     background: #01579b;

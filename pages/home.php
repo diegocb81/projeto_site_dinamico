@@ -1,5 +1,9 @@
-<section class="banner-principal">
-        <div class="overlay"></div><!--overlay-->
+<section class="banner-container">
+    <div style="background-image: url('<?php echo INCLUDE_PATH; ?>img/bg-form.jpg');" class="banner-single"></div><!--banner-single-->
+    <div style="background-image: url('<?php echo INCLUDE_PATH; ?>img/bg-form2.jpg');" class="banner-single"></div><!--banner-single-->
+    <div style="background-image: url('<?php echo INCLUDE_PATH; ?>img/bg-form3.jpg');" class="banner-single"></div><!--banner-single-->
+    
+    <div class="overlay"></div><!--overlay-->
         <div class="center">
             <form>
                 <h2>Qual o seu melhor e-mail?</h2>
@@ -7,7 +11,7 @@
                 <input type="submit" name="acao" value="Cadastrar!">
             </form>
         </div><!--center-->
-    </section><!--banner-principal-->
+</section><!--banner-container-->
 
     <section class="descricao-autor">
         <div class="center">
