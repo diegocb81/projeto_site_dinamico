@@ -23,11 +23,11 @@ $(function(){
 
     function changeSlide(){
         setInterval(function(){
-            $('.banner-single').eq(curSlide).fadeOut(2000);
+            $('.banner-single').eq(curSlide).stop().fadeOut(2000);
             curSlide++;
             if(curSlide > maxSlide)
                 curSlide = 0;
-            $('.banner-single').eq(curSlide).fadeIn(2000);
+            $('.banner-single').eq(curSlide).stop().fadeIn(2000);
             //Trocar bullets da navegação do slider
             $('.bullets span').removeClass('active-slider');
             $('.bullets span').eq(curSlide).addClass('active-slider');
@@ -36,9 +36,9 @@ $(function(){
 
     $('body').on('click','.bullets span',function(){
         var currentBullet = $(this);
-        $('.banner-single').eq(curSlide).fadeOut(1000);
+        $('.banner-single').eq(curSlide).stop().fadeOut(1000);
         curSlide = currentBullet.index();
-        $('.banner-single').eq(curSlide).fadeIn(1000);
+        $('.banner-single').eq(curSlide).stop().fadeIn(1000);
         $('.bullets span').removeClass('active-slider');
         currentBullet.addClass('active-slider');
     });
