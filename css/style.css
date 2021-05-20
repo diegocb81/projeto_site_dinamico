@@ -334,8 +334,8 @@ section.erro-404 a {
     text-align: center;
 }
 
-.contato-container.center{
-    margin-top: -120px;
+.contato-container .center{
+    margin-top: -75px;
 }
 
 .contato-container input[type=text] {
