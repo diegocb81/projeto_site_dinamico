@@ -379,6 +379,7 @@ section.erro-404 a {
 }
 
 .bullets span{
+    margin: 0 5px;
     display: inline-block;
     width: 16px;
     height: 16px;
