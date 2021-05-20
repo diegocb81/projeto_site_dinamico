@@ -163,7 +163,7 @@ section.banner-container form input[type=submit] {
 }
 
 form {
-    margin-top: 117px;
+    margin-top: 80px;
 }
 
 section.descricao-autor {
@@ -334,7 +334,7 @@ section.erro-404 a {
     text-align: center;
 }
 
-.contato-container .center{
+.contato-container.center{
     margin-top: -120px;
 }
 
@@ -368,6 +368,27 @@ section.erro-404 a {
     height: 40px;
     color: white;
     cursor: pointer;
+}
+
+.bullets{
+    position: absolute;
+    z-index: 5;
+    bottom: 10px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.bullets span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #0288d1;
+}
+
+.bullets span.active-slider{
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {
