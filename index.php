@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/all.css">
     <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>css/style.css">
 </head>
-
+<body>
+<base base="<?php echo INCLUDE_PATH; ?>" />
 <?php
     $url = isset($_GET['url']) ? $_GET['url'] : 'home';
     switch ($url) {
@@ -26,11 +27,10 @@
             echo '<target target="servicos" />';
             break;
     }
-
-
 ?>
 
-<body>
+<?php new Email(); ?>
+
     <header>
         <div class="center">
             <div class="logo left"><a href="/">DAST</a></div>
