@@ -4,7 +4,7 @@
     {
         function __construct()
         {
-            echo 'chamada com sucesso!';
+            
         }
     }
 
